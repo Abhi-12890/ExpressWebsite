@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlink}}
+</head>
+<body>
+    <div class="containter-fluid main_menu">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><i class="fa-regular fa-snowflake"></i></i> AbhiMusic<i class="fa-solid fa-headphones"></i>  <i class="fa-regular fa-snowflake"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/contact">contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    {{!-- main Header   --}}
+    <div class="containter-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                         {{!-- right side div  --}}
+                        <div class="col-md-6 col-12 main_header_right">
+                            <figure>
+                                <img src="img/contact.webp" alt="abhishek" class="img-fluid" title="AbhiMusic">
+                            </figure>
+                        </div>
+
+                        {{!-- left side div  --}}
+                        <div class="col-md-6 col-12 main_header_left">
+                            <h1>  <span class="text-clr">Contact</span> </h1>
+                                <form action="" class="contact">
+                                    <label for=""> <input type="text" name="" id="" placeholder="Enter first Name...."> </label>
+                                    <label for=""> <input type="text" name="" id="" placeholder="Enter last Name...."> </label>
+                                    <label for=""> <input type="email" name="" id="" placeholder="Enter your Email..."> </label>
+                                    <label for=""> <input type="number" name="" id="" placeholder="Enter your Contact Number..."> </label>
+                                    <textarea name="text" id="" >Enter your Address...</textarea>
+                                    <a href="#"> <button type="submit">Submit</button></a>
+                                </form>
+                        </div>
+
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>  
+
+    {{!-- footer section  --}}
+    
+    <footer>
+        <p>Hello i am footer tag!</p>
+    </footer>  
+    {{>javascript}}
+</body>
+</html>

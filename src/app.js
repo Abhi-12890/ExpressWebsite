@@ -33,7 +33,7 @@ app.get("/contact",(req,res)=>{
 // Error page 
 app.get("*",(req,res)=>{
     res.render("404error",{
-        errorMes:"Opps! Page is not found , click here to go back."
+        errorMes:"Opps! Page is not found , click here to go back go back."
     });
 });
 
